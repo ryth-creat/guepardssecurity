@@ -130,11 +130,17 @@ nav {
   text-decoration: none; transition: all 0.3s;
 }
 .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+
+/* ✅ HERO IMAGE — remplace l'ancienne SVG */
 .hero-visual {
   position: absolute; right: 5%; top: 50%;
   transform: translateY(-50%);
   width: 480px; height: 480px;
-  opacity: 0.15;
+  object-fit: cover;
+  border-radius: 4px;
+  opacity: 0.85;
+  border: 1px solid rgba(232,137,10,0.3);
+  box-shadow: 0 0 60px rgba(232,137,10,0.1);
 }
 
 /* STATS */
